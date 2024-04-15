@@ -105,8 +105,9 @@ h5 {
 
   .copyright {
     display: flex;
-    flex-direction: column;
-    font-size: 0.5em;
-    /*text-transform: uppercase;*/
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 0.25em;
+    text-transform: uppercase;
   }
 }
