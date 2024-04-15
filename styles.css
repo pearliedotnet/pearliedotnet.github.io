@@ -1,3 +1,4 @@
+/* General Styles */
 ::selection {
   background-color: #c94061;
   color: white;
@@ -7,9 +8,7 @@ body {
   font-size: 40px;
   font-weight: 400;
   line-height: 120%;
-  width: auto;
-  height: 100%;
-  margin: 40px 120px 0 120px;
+  margin: 40px 120px 0;
   background-color: #fbfbf9;
   color: #c94061;
 }
@@ -28,66 +27,59 @@ body {
 
 h1 {
   font-size: 3em;
-  margin: 20px 0 0 0;
+  margin: 20px 0 0;
 }
 
-.div-1 > div > h1 > #cute {
-  font-size: 40px;
+#cute {
+  font-size: 40px; /* Corrected selector */
 }
 
 .temporary-content {
   gap: 40px;
-  opacity: 75%;
+  opacity: 0.75; /* Changed to decimal value */
 }
 
 .div-3 {
-  gap: 0px;
+  gap: 0;
   margin-top: 180px;
 }
 
 h5 {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
 }
 
 .link {
   text-decoration: none;
-  margin: 0px;
-  padding: 0px;
   color: #c94061;
 }
 
-.link :hover {
+.link:hover {
   background-color: #c94061;
   color: #fbfbf9;
-  opacity: 50%;
+  opacity: 0.5; /* Changed to decimal value */
   transition: 450ms ease-in-out;
 }
 
 .copyright {
   font-size: 0.5em;
   line-height: 120%;
-  margin: 36px 0 0 0;
-  opacity: 75%;
+  margin: 36px 0 0;
+  opacity: 0.75; /* Changed to decimal value */
 }
 
+/* Media Query for Responsive Design */
 @media only screen and (max-width: 768px) {
   body {
     font-size: 28px;
-    width: auto;
-    height: 100%;
     margin: 20px;
   }
 
   h1 {
     font-size: 2.25em;
   }
+
   .div-1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: auto;
-    height: 100%;
+    width: auto; /* Changed width */
   }
 
   p {
