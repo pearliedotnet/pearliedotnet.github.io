@@ -1,0 +1,71 @@
+::selection {
+  background-color: #c94061;
+  color: white;
+}
+
+body {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 120%;
+  width: auto;
+  height: 100%;
+  margin: 40px 120px 0 120px;
+  background-color: #fbfbf9;
+  color: #c94061;
+}
+
+.div-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 760px;
+  height: 100%;
+}
+
+.div-2 {
+  margin-top: 40px;
+}
+
+h1 {
+  font-size: 3em;
+  margin: 20px 0 0 0;
+}
+
+.div-1 > div > h1 > #cute {
+  font-size: 40px;
+}
+
+.temporary-content {
+  gap: 40px;
+  opacity: 75%;
+}
+
+.div-3 {
+  gap: 0px;
+  margin-top: 180px;
+}
+
+h5 {
+  margin: 0px;
+  padding: 0px;
+}
+
+.link {
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+  color: #c94061;
+}
+
+.link :hover {
+  background-color: #c94061;
+  color: #fbfbf9;
+  opacity: 50%;
+  transition: 450ms ease-in-out;
+}
+
+.copyright {
+  font-size: 0.5em;
+  margin: 36px 0 0 0;
+  opacity: 75%;
+}
