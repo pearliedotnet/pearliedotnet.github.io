@@ -76,7 +76,7 @@ h5 {
     font-size: 28px;
     width: auto;
     height: 100%;
-    margin: 40px 20px;
+    margin: 20px;
   }
 
   h1 {
@@ -91,7 +91,7 @@ h5 {
   }
 
   p {
-    margin-top: 0px;
+    margin-top: 40px;
   }
 
   .div-2 {
@@ -100,7 +100,7 @@ h5 {
 
   .div-3 {
     font-size: 1em;
-    margin-top: 64px;
+    margin-top: 40px;
   }
 
   .copyright {
