@@ -8,9 +8,13 @@ body {
   font-size: 40px;
   font-weight: 400;
   line-height: 120%;
-  margin: 40px 120px 0;
+  margin: 64px 120px 0 120px;
   background-color: #fbfbf9;
   color: #c94061;
+}
+
+p {
+  margin: 0;
 }
 
 .div-1 {
@@ -35,7 +39,10 @@ h1 {
 }
 
 .temporary-content {
+  display: flex;
+  flex-direction: column;
   gap: 40px;
+  margin-top: 40px;
   opacity: 0.75; /* Changed to decimal value */
 }
 
@@ -82,12 +89,9 @@ h5 {
     width: auto; /* Changed width */
   }
 
-  p {
-    margin-top: 40px;
-  }
-
   .div-2 {
     margin-top: 28px;
+    gap: 20px;
   }
 
   .div-3 {
